@@ -1,20 +1,20 @@
 {
   "name": "node-constellation",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Calculate out which constellation one certain day is.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd tester & node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/XadillaX/node-constellation.git"
   },
   "keywords": [
     "constellation"
   ],
   "author": "XadillaX",
   "license": "BSD-2-Clause",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/XadillaX/node-constellation.git"
-  },
   "bugs": {
     "url": "https://github.com/XadillaX/node-constellation/issues"
   }
