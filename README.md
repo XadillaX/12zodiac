@@ -22,6 +22,7 @@ Languages
   + zh-cn
   + zh-tw
   + en
+  + ar ***(Pending...)***
 
 Contributors
 ------------------
