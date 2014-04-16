@@ -19,6 +19,7 @@ var cons3 = constellation(1, 1, "zh-tw");
 Languages
 ------------------
 
+  + symbol
   + zh-cn
   + zh-tw
   + en
@@ -29,7 +30,6 @@ Contributors
 
 You can contribute to it and pull your request to support other languages or add functions.
 
-  + poying@github
+  + poying @ github
 
 > **Attention:** in alphabetical order.
-
