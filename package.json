@@ -4,7 +4,7 @@
   "description": "Calculate out which constellation one certain day is.",
   "main": "index.js",
   "scripts": {
-    "test": "cd tester & node test.js"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,10 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/XadillaX/node-constellation/issues"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "mocha": "^3.0.0",
+    "spidex": "^2.2.1"
   }
 }
