@@ -1,35 +1,41 @@
-Constellation
-==================
+# Constellation
 
 Calculate out which constellation one certain day is.
 
-Usage
-------------------
+## Installation
 
 ```shell
-$ npm install node-constellation
+$ npm install node-constellation --save
 ```
+
+## API
+
+```js
+constellation(MONTH, DAY[, i18n]);
+```
+
+eg.
 
 ```javascript
-var constellation = require("node-constellation");
-var cons1 = constellation(12, 19, "zh-cn");
-var cons2 = constellation(11, 14, "en");
-var cons3 = constellation(1, 1, "zh-tw");
+const constellation = require("node-constellation");
+const cons1 = constellation(12, 19, "zh-cn");
+const cons2 = constellation(11, 14, "en");
+const cons3 = constellation(1, 1, "zh-tw");
+const cons4 = constellation(1, 1);
 ```
-Languages
-------------------
 
+### Supported Languages
+
+  + ar
+  + en **[default]**
   + symbol
   + zh-cn
   + zh-tw
-  + en
-  + ar ***(Pending...)***
 
-Contributors
-------------------
+### Contributors
 
-You can contribute to it and pull your request to support other languages or add functions.
+You can contribute to it and make pull request to support other languages or functions.
 
-  + poying @ github
+  + [@poying](https://github.com/poying)
 
 > **Attention:** in alphabetical order.
