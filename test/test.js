@@ -18,6 +18,8 @@ describe("constellation", function() {
     for(let i = 0; i < 12; i++) {
         for(let j = 0; j < days[i]; j++) {
             it(`${i + 1}.${j + 1} should OK`, function(done) {
+                this.timeout(20000);
+
                 spidex.post("http://www.xzw.com/cquery/post.php", {
                     data: {
                         "date[0]": 2004,
