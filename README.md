@@ -13,7 +13,7 @@ $ npm install 12zodiac --save
 ## API
 
 ```js
-constellation(MONTH, DAY[, i18n]);
+zodiac(MONTH, DAY[, i18n]);
 ```
 
 eg.
