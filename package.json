@@ -16,9 +16,9 @@
     "zodiac sign"
   ],
   "author": "XadillaX",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/XadillaX/node-12zodiac/issues"
+    "url": "https://github.com/XadillaX/12zodiac/issues"
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
