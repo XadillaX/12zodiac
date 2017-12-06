@@ -1,11 +1,13 @@
-# Constellation
+# 12 Zodiac
 
-Calculate out which constellation one certain day is.
+Calculate out which zodiac one certain day is.
+
+> This package was known as **node-constellation** before.
 
 ## Installation
 
-```shell
-$ npm install node-constellation --save
+```sh
+$ npm install 12zodiac --save
 ```
 
 ## API
@@ -17,11 +19,11 @@ constellation(MONTH, DAY[, i18n]);
 eg.
 
 ```javascript
-const constellation = require("node-constellation");
-const cons1 = constellation(12, 19, "zh-cn");
-const cons2 = constellation(11, 14, "en");
-const cons3 = constellation(1, 1, "zh-tw");
-const cons4 = constellation(1, 1);
+const zodiac = require("12zodiac");
+const z1 = zodiac(12, 19, "zh-cn"); //< 射手座
+const z2 = zodiac(11, 14, "en");
+const z3 = zodiac(1, 1, "zh-tw");
+const z4 = zodiac(1, 1);
 ```
 
 ### Supported Languages

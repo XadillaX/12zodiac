@@ -1,22 +1,24 @@
 {
-  "name": "node-constellation",
-  "version": "0.0.5",
-  "description": "Calculate out which constellation one certain day is.",
+  "name": "12zodiac",
+  "version": "1.0.0",
+  "description": "Calculate out which zodiac one certain day is.",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/XadillaX/node-constellation.git"
+    "url": "git://github.com/XadillaX/12zodiac.git"
   },
   "keywords": [
-    "constellation"
+    "constellation",
+    "zodiac",
+    "zodiac sign"
   ],
   "author": "XadillaX",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/XadillaX/node-constellation/issues"
+    "url": "https://github.com/XadillaX/node-12zodiac/issues"
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
